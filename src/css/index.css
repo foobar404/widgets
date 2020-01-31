@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html,
+body,
+#root,
+main {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: skyblue;
+}
+
+.Search::placeholder {
+  color: #fffb;
+  opacity: 1;
+}
+
+button {
+  cursor: pointer;
+}
